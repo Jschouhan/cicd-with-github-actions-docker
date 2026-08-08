@@ -17,7 +17,7 @@ spec:
       containers:
         - name: cicd-demo
           # Replace YOUR_DOCKERHUB_USERNAME with your actual Docker Hub username
-          image: YOUR_DOCKERHUB_USERNAME/cicd-demo:latest
+          image: jstech06/cicd-demo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
