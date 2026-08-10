@@ -19,7 +19,7 @@ def test_index(client):
     assert resp.status_code == 200
     data = resp.get_json()
     assert "message" in data
-    assert data["message"] == "Hello from the CI/CD demo app!"
+    assert data["message"] == "Hello from the CI/CD Pipeline app!"
 
 
 def test_health(client):
