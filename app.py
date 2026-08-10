@@ -11,7 +11,7 @@ APP_VERSION = os.environ.get("APP_VERSION", "1.0.0")
 def index():
     return jsonify(
         {
-            "message": "Hello from the CI/CD demo app!",
+            "message": "Hello from the CI/CD Pipeline app!",
             "version": APP_VERSION,
             "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         }
